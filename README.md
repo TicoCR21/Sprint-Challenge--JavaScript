@@ -25,14 +25,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+    Map returns a new array. forEach mutates the original array and discards the return.
 
 2. Explain the difference between a callback and a higher order function.
+    Callsbacks have closure. Also, higher order functions provide a way to access their returning function after their complete execution.
 
 3. What is closure?
+    Inner functions have access to outer functions variables/parameters/arguments.
 
 4. Describe the four rules of the 'this' keyword.
-
+    The four types of bindings are:
+        1. Global - this refers to the window object
+        2. Implicit - this refers to the calling object
+        3. New - this refers to the created object through the new keyword
+        4. Explicit - we can override what this refers to using call, apply, bind.
+        
 5. Why do we need super() in an extended class?
+    keyword super invokes the parents constructor
 
 ### Task 1 - Project Set up
 
